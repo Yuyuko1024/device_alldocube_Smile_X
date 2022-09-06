@@ -39,6 +39,16 @@ TARGET_SCREEN_WIDTH := 1200
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Init
+PRODUCT_PACKAGES += \
+    init.recovery.common.rc \
+    init.recovery.ums512_1h10.rc \
+    init.ums512_1h10.rc \
+    ueventd.ums512_1h10.rc \
+    fstab.ums512_1h10 \
+    recovery.tmpfsdata.fstab \
+    fstab.ramdisk
+
 # Screen density
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi

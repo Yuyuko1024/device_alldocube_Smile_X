@@ -49,6 +49,14 @@ PRODUCT_PACKAGES += \
     recovery.tmpfsdata.fstab \
     fstab.ramdisk
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
+PRODUCT_PACKAGES += \
+    WifiResOverlay \
+    TelephonyOverlay
+
 # Screen density
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi

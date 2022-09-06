@@ -19,11 +19,9 @@ import re
 
 def FullOTA_InstallEnd(info):
   OTA_InstallEnd(info)
-  return
 
 def IncrementalOTA_InstallEnd(info):
   OTA_InstallEnd(info)
-  return
 
 def AddImage(info, basename, dest):
   name = basename
@@ -37,4 +35,3 @@ def OTA_InstallEnd(info):
   AddImage(info, "vbmeta.img", "/dev/block/by-name/vbmeta")
   AddImage(info, "vbmeta_system.img", "/dev/block/by-name/vbmeta_system")
   AddImage(info, "vbmeta_vendor.img", "/dev/block/bootdevice/by-name/vbmeta_vendor")
-  return

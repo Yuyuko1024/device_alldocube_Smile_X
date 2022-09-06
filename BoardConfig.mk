@@ -50,6 +50,9 @@ AB_OTA_PARTITIONS += \
 # Assertation
 TARGET_OTA_ASSERT_DEVICE := Smile_X
 
+# Build system
+BUILD_BROKEN_DUP_RULES := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := ums512_1h10
 TARGET_NO_BOOTLOADER := true
@@ -64,6 +67,9 @@ endif
 
 # Display
 TARGET_SCREEN_DENSITY := 320
+
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Kernel Header
 BOARD_BOOT_HEADER_VERSION := 2

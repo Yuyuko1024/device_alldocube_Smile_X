@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Call proprietary blob setup
-$(call inherit-product-if-exists, vendor/alldocube/T1028/T1028-vendor.mk)
+$(call inherit-product-if-exists, vendor/alldocube/Smile_X/Smile_X-vendor.mk)
 
 # VNDK API
 PRODUCT_SHIPPING_API_LEVEL := 30

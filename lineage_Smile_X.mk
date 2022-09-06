@@ -27,7 +27,7 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Smile_X
-PRODUCT_NAME := lineage_T1028
+PRODUCT_NAME := lineage_Smile_X
 PRODUCT_BRAND := ALLDOCUBE
 PRODUCT_MODEL := Smile_X
 PRODUCT_MANUFACTURER := alldocube

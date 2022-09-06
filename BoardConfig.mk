@@ -47,6 +47,9 @@ AB_OTA_PARTITIONS += \
     vbmeta_vendor \
     vendor
 
+# Assertation
+TARGET_OTA_ASSERT_DEVICE := Smile_X
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := ums512_1h10
 TARGET_NO_BOOTLOADER := true

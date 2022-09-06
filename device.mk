@@ -90,3 +90,14 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
+
+# Update engine
+PRODUCT_PACKAGES += \
+    checkpoint_gc \
+    otapreopt_script \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
+
+PRODUCT_PACKAGES_DEBUG += \
+    update_engine_client

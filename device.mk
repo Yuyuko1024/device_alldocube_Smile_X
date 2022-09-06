@@ -59,6 +59,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1200
 
+# Copy dtb to build
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/prebuilt/dtb.img:dtb.img
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd

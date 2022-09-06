@@ -57,6 +57,11 @@ PRODUCT_PACKAGES += \
     WifiResOverlay \
     TelephonyOverlay
 
+# RcsService
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling
+
 # Screen density
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi

@@ -154,6 +154,10 @@ $(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-l
 # Platform
 TARGET_BOARD_PLATFORM := ums512
 
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/prop/product.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/prop/system_ext.prop
+
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_USES_RECOVERY_AS_BOOT := true

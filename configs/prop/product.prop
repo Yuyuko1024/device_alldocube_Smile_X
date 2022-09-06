@@ -1,0 +1,9 @@
+ro.build.characteristics=default
+sys.internal.emulated=1
+persist.storage.type=2
+persist.netmon.linger=10000
+ro.config.media_vol_default=12
+ro.postinstall.fstab.prefix=/product
+ro.config.ringtone=Ring_Synth_04.ogg,Ring_Synth_02.ogg
+ro.config.notification_sound=pixiedust.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg

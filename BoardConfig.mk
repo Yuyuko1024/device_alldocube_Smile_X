@@ -33,6 +33,20 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_USES_64_BIT_BINDER := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 
+# A/B Updater
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    product \
+    system \
+    system_ext \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor \
+    vendor
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := ums512_1h10
 TARGET_NO_BOOTLOADER := true

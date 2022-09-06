@@ -19,6 +19,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_Smile_X.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_Smile_X-user \
-    lineage_Smile_X-userdebug \
-    lineage_Smile_X-eng
+    lineage_T1028-user \
+    lineage_T1028-userdebug \
+    lineage_T1028-eng

@@ -84,8 +84,8 @@ PRODUCT_PACKAGES += \
     PresencePolling
 
 # Screen density
-PRODUCT_AAPT_CONFIG := xxxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+PRODUCT_AAPT_CONFIG := xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

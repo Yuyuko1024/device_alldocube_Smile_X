@@ -1,5 +1,12 @@
 # Android device tree for ALLDOCUBE Smile X Tablet (Smile_X)
 
+------Damn Unisoc!------
+Unisoc ROM has a very large number of AVBs
+You know what? Unisoc's VBMeta image stores 14 partitions of AVB KEYS!
+There is also NO SUPPORT for key combinations to get them into Fastboot!
+Unless Unisoc or the vendor removes too many AVBs or chooses to support a combination of keys to enter Fastboot
+Otherwise, I'm not going to update the device tree
+
 ```
 #
 
